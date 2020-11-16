@@ -6,8 +6,5 @@ class Controller:
     def __init__(self, env: []):
         self.env = env
 
-    def start(self):
-        pass
-
     def tick(self, delta_time: int):
         pass
